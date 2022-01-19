@@ -565,7 +565,7 @@ body {
   right: 6.5rem;
   background-image: radial-gradient(#7ed56f, #28b485);
   z-index: 999;
-  transition: transform .8s; }
+  transition: transform 0.8s cubic-bezier(0.37, 0, 0.63, 1); }
 
 .navigation__nav {
   height: 100vh;
@@ -575,7 +575,7 @@ body {
   right: 0;
   z-index: 1500;
   opacity: 0;
-  transition: all .8s; }
+  transition: all 0.8s cubic-bezier(0.68, -0.6, 0.32, 1.6); }
 
 .navigation__list {
   position: absolute;
