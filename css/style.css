@@ -1,3 +1,10 @@
+/*
+$Breakpoint argument choices:
+- phone (600px)
+- tab-port (900px)
+- tab-land (1200px)
+- big-desktop (1800px+)
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
