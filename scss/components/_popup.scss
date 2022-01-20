@@ -23,6 +23,10 @@
         transform: translate(-50%, -50%) scale(0);
         transition: all .4s .2s;
         
+        @include respond(phone) {
+            text-align: center;
+        }
+        
         @include respond(medium-desktop) {
             display: inline-block;
             position: relative;
@@ -56,6 +60,10 @@
     &__img {
         display: block;
         width: 100%;
+
+        @include respond(phone) {
+            display: none;
+        }
     }
 
     &__text {
