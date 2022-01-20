@@ -21,6 +21,7 @@ $Breakpoint argument choices:
 - phone (600px)
 - tab-port (900px)
 - tab-land (1200px)
+- medium-desktop (1614px)
 - big-desktop (1800px+)
 */
 
@@ -33,6 +34,9 @@ $Breakpoint argument choices:
     }
     @if $breakpoint == tab-land {
         @media (max-width: 75em) { @content }; // 1200px
+    }
+    @if $breakpoint == medium-desktop {
+        @media (max-width: 100.87em) { @content }; // 1614px
     }
     @if $breakpoint == big-desktop {
         @media (min-width: 112.5em) { @content }; // 1800px
