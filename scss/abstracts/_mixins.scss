@@ -50,8 +50,8 @@ $Breakpoint argument choices:
     @media (min-resolution: 192dpi) and (min-width: 37.5em),
             (min-width: 125em) {
         background-image: linear-gradient(to right bottom,
-        rgba($color-secondary-light, 0.808),
-        rgba($color-secondary-dark, 0.808)),
+        rgba($color-primary-light, 0.808),
+        rgba($color-primary-dark, 0.808)),
         url("../img/hero.jpg");
     }
 }
