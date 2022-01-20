@@ -3,6 +3,7 @@ $Breakpoint argument choices:
 - phone (600px)
 - tab-port (900px)
 - tab-land (1200px)
+- medium-desktop (1614px)
 - big-desktop (1800px+)
 */
 @keyframes moveInLeft {
@@ -42,6 +43,9 @@ $Breakpoint argument choices:
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 100.87em) {
+    html {
+      font-size: 62.5%; } }
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
@@ -447,6 +451,10 @@ body {
   width: 90%;
   display: block;
   transition: all .3s; }
+  @media (max-width: 56.25em) {
+    .form__input {
+      width: 100%;
+      margin-bottom: 2rem; } }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
@@ -472,6 +480,10 @@ body {
 .form__radio-group {
   width: 49%;
   display: inline-block; }
+  @media (max-width: 56.25em) {
+    .form__radio-group {
+      width: 100%;
+      margin-bottom: 2rem; } }
 
 .form__radio-input {
   display: none; }
@@ -533,10 +545,21 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0);
     transition: all .4s .2s; }
+    @media (max-width: 100.87em) {
+      .popup__content {
+        display: inline-block;
+        position: relative;
+        height: max-content;
+        width: 60%; } }
   .popup__left {
     width: 33.333333333%;
     display: table-cell;
     vertical-align: middle; }
+    @media (max-width: 100.87em) {
+      .popup__left {
+        display: flex;
+        width: 100%;
+        height: max-content; } }
   .popup__right {
     width: 66.666666666%;
     display: table-cell;
@@ -555,6 +578,9 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
+    @media (max-width: 75em) {
+      .popup__text {
+        column-count: 1; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }
@@ -928,8 +954,20 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.35);
-  height: 50rem; }
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.35); }
+  @media (max-width: 75em) {
+    .book {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url("../img/nat-10.jpg");
+      background-size: cover; } }
+  @media (max-width: 75em) {
+    .book {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url("../img/nat-10.jpg"); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
+    @media (max-width: 75em) {
+      .book__form {
+        width: 65%; } }
+    @media (max-width: 56.25em) {
+      .book__form {
+        width: 100%; } }
