@@ -60,7 +60,7 @@
       color: $color-primary;
       background-color: $color-grey-dark-3;
       box-shadow: 0 1rem 2rem rgba($color-black, .4);
-      transform: rotate(5deg) scale(1.2);
+      transform: scale(1.2);
     }
 
   }
@@ -70,16 +70,16 @@
     padding-top: 2rem;
     width: 80%;
     float: right;
+    color: $color-grey-light-1;
 
     @include respond(tab-port) {
       width: 100%;
       float: none;
     }
-
+    
     &-credit {
-      color: $color-grey-light-1;
+      color: $color-primary;
+      text-decoration: none;
     }
   }
-  
-  
 }
