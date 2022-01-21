@@ -48,10 +48,20 @@ $Breakpoint argument choices:
 // Header
 @mixin hero-high-res {
     @media (min-resolution: 192dpi) and (min-width: 37.5em),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
             (min-width: 125em) {
         background-image: linear-gradient(to right bottom,
         rgba($color-primary-light, 0.808),
         rgba($color-primary-dark, 0.808)),
         url("../img/hero.jpg");
+    }
+}
+
+// In case of having more images to adapt accordingly.
+
+@mixin respond-res {
+    @media (min-resolution: 192dpi) and (min-width: 37.5em),
+            (min-width: 125em) {
+        @content;
     }
 }
