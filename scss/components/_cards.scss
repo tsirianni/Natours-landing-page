@@ -27,15 +27,15 @@
             transform: rotateY(180deg);
 
             &-1 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+                @include linear-grad($color-secondary-light, $color-secondary-dark);
             }
 
             &-2 {
-                background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+                @include linear-grad($color-primary-light, $color-primary-dark);
             }
 
             &-3 {
-                background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark);
+                @include linear-grad($color-tertiary-light, $color-tertiary-dark);
             }
         }
     }
@@ -60,18 +60,15 @@
         border-top-right-radius: 3px;
 
         &--1 {
-            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
-            url("../img/nat-5.jpg");
+            @include linear-grad-img($color-secondary-light, $color-secondary-dark, "../img/nat-5.jpg");
         }
 
         &--2 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-            url("../img/nat-6.jpg");
+            @include linear-grad-img($color-primary-light, $color-primary-dark, "../img/nat-6.jpg");
         }
 
         &--3 {
-            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark),
-            url("../img/nat-7.jpg");
+            @include linear-grad-img($color-tertiary-light, $color-tertiary-dark, "../img/nat-7.jpg");
         }
     }
 
@@ -93,21 +90,15 @@
         box-decoration-break: clone;
 
         &--1 {
-            background-image: linear-gradient(to right bottom,
-            rgba($orange-gradient-color-1, .95),
-            rgba($orange-gradient-color-2, .95));
+            @include linear-grad-op($orange-gradient-color-1, $orange-gradient-color-2, .95);
         }
 
         &--2 {
-            background-image: linear-gradient(to right bottom,
-            rgba($green-gradient-color-1, .95),
-            rgba($green-gradient-color-2, .95));
+            @include linear-grad-op($green-gradient-color-1, $green-gradient-color-2, .95);
         }
 
         &--3 {
-            background-image: linear-gradient(to right bottom,
-            rgba($color-tertiary-light, .95),
-            rgba($color-tertiary-dark, .95));
+            @include linear-grad-op($color-tertiary-light, $color-tertiary-dark, .95);
         }
     }
 

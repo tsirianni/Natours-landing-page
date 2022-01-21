@@ -1,6 +1,6 @@
 .header {
     height: 85vh;
-    @include linear-grad-img($color-primary-light, $color-primary-dark, 0.808, "../img/hero-small.jpg");
+    @include linear-grad-img-op($color-primary-light, $color-primary-dark, 0.808, "../img/hero-small.jpg");
     background-size: cover;
     background-position: top;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100% );
