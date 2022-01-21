@@ -6,6 +6,8 @@
     }
 }
 
+
+// Center absolute elements
 @mixin center-absolute {
     position: absolute;
     top: 50%;
@@ -60,8 +62,31 @@ $Breakpoint argument choices:
 // In case of having more images to adapt accordingly.
 
 @mixin respond-res {
-    @media (min-resolution: 192dpi) and (min-width: 37.5em),
-            (min-width: 125em) {
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+           only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+           only screen and (min-width: 125em) {
         @content;
     }
+}
+
+// Linear gradients
+
+// Without opacity
+@mixin linear-grad($color-one, $color-two) {
+    background-image: linear-gradient(to right bottom, $color-one, $color-two);
+}
+
+// With opacity
+@mixin linear-grad-op($color-one, $color-two, $opacity-one, $opacity-two) {
+    background-image: linear-gradient(to right bottom,
+    rgba($color-one, $opacity-one),
+    rgba($color-two, $opacity-two));
+}
+
+// With opacity and image
+@mixin linear-grad-img($color-one, $color-two, $opacity, $path) {
+    background-image: linear-gradient(to right bottom,
+    rgba($color-one, $opacity),
+    rgba($color-two, $opacity)),
+    url($path);
 }
