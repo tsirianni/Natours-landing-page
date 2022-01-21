@@ -74,7 +74,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777; }
+  color: #575757; }
 
 .heading-primary {
   color: #fff;
@@ -199,7 +199,7 @@ body {
 
 .btn--white {
   background-color: #fff;
-  color: #777; }
+  color: #575757; }
   .btn--white::after {
     background-color: #fff; }
 
@@ -338,7 +338,7 @@ body {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right bottom, #fe8c00, #ff7730); }
       .card__side--back-2 {
         background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
       .card__side--back-3 {
@@ -356,7 +356,7 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../img/nat-5.jpg"); }
+      background-image: linear-gradient(to right bottom, #fe8c00, #ff7730), url("../img/nat-5.jpg"); }
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../img/nat-6.jpg"); }
     .card__picture--3 {
@@ -376,11 +376,11 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 197, 0, 0.95), rgba(194, 21, 0, 0.95)); }
     .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(17, 153, 142, 0.95), rgba(44, 119, 68, 0.95)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.95), rgba(86, 67, 250, 0.95)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {

@@ -94,20 +94,20 @@
 
         &--1 {
             background-image: linear-gradient(to right bottom,
-            rgba($color-secondary-light, .85),
-            rgba($color-secondary-dark, .85));
+            rgba($orange-gradient-color-1, .95),
+            rgba($orange-gradient-color-2, .95));
         }
 
         &--2 {
             background-image: linear-gradient(to right bottom,
-            rgba($color-primary-light, .85),
-            rgba($color-primary-dark, .85));
+            rgba($green-gradient-color-1, .95),
+            rgba($green-gradient-color-2, .95));
         }
 
         &--3 {
             background-image: linear-gradient(to right bottom,
-            rgba($color-tertiary-light, .85),
-            rgba($color-tertiary-dark, .85));
+            rgba($color-tertiary-light, .95),
+            rgba($color-tertiary-dark, .95));
         }
     }
 
