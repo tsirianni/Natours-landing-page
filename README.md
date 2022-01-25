@@ -10,13 +10,13 @@ Os direitos autorais sobre o design são do autor do curso de CSS avançado [Jon
 
 ### Design
 
-Abaixo, algumas fotos do projeto estão disponíveis, voltadas para desktop. Você pode conferir o projeto inteiro [link not available yet...]()
+Abaixo, algumas fotos do projeto estão disponíveis, voltadas para desktop. Você pode conferir o projeto inteiro [aqui](https://natours-portifolio.herokuapp.com/)
 
-<img src="https://raw.githubusercontent.com/tsirianni/random-images/main/Natour/Natour%20header%20-%20desktop.png" height="200" width="350" align="left">
-<img src="https://raw.githubusercontent.com/tsirianni/random-images/main/Natour/Natour%20about%20-%20desktop.png" height="200" width="350" align="left">
-<img src="https://raw.githubusercontent.com/tsirianni/random-images/main/Natour/Natour%20cards%20-%20desktop.png" height="200" width="350" align="left">
-<img src="https://raw.githubusercontent.com/tsirianni/random-images/main/Natour/Natour%20reviews%20-%20desktop.png" height="200" width="350" align="left">
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+<img src="https://raw.githubusercontent.com/tsirianni/random-images/main/Natour/Natour%20header%20-%20desktop.png" height="250" width="450" align="center">
+<img src="https://raw.githubusercontent.com/tsirianni/random-images/main/Natour/Natour%20about%20-%20desktop.png" height="250" width="450" align="center">
+<img src="https://raw.githubusercontent.com/tsirianni/random-images/main/Natour/Natour%20cards%20-%20desktop.png" height="250" width="450" align="center">
+<img src="https://raw.githubusercontent.com/tsirianni/random-images/main/Natour/Natour%20reviews%20-%20desktop.png" height="250" width="450" align="center">
+
 
 ### Sobre o projeto
 Alguns pontos deste projeto se destacam mais do que outros. Observe a lista abaixo para ver alguns dos pontos mais interessantes deste projeto:
